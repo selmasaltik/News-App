@@ -1,0 +1,33 @@
+{
+  "name": "news-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "build": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selmasaltik/News-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/selmasaltik/News-App/issues"
+  },
+  "homepage": "https://github.com/selmasaltik/News-App#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "math": "^0.0.3",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
